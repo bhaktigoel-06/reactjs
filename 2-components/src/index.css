@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.card {
+ alignment-baseline:"top-left";
+  border-radius : 10px;
+  position : fixed;
+  bottom : 50px;
+  left : 20px;
+  padding : 10px;
+  background-color : blue;
+  color : white;
+}
+.Myprofile {
+  alignment-baseline:"top-right";
+  border-radius : 10px;
+  position : fixed;
+  bottom : 450px;
+  right : 20px;
+  padding : 10px;
+  background-color : blue;
+  color : white;
+}
+
+.navbar {
+  alignment-baseline:"bottom-right";
+  border-radius : 10px;
+  position : fixed;
+  bottom : 20px;
+  right : 20px;
+  padding : 10px;
+  background-color : red;
+  color : white;
+}
